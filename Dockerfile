@@ -14,4 +14,4 @@ RUN groupadd -r pptruser && useradd -r -g pptruser -G audio,video pptruser \
     && chown -R pptruser:pptruser /home/pptruser
 
 # Run everything after as non-privileged user.
-USER pptruser
+# USER pptruser
